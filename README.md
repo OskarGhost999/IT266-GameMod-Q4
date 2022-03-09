@@ -1,5 +1,5 @@
 THIS IS A MOD THAT DOES NOT REALLY WORK
-In this MOD I designed a small map to play the game mode that once was famous in COD black ups 3, UPLINK. 
+In this MOD I designed the game mode that once was famous in COD black ups 3, UPLINK. 
 In the game, we have two teams BLUE and RED, both teams fight each other on a deathmatch and at the same time 
 trying to get to the other side of the map to score a GOAL.
 To be able to play this game:
