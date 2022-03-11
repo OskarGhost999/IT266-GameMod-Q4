@@ -3382,6 +3382,23 @@ void idPlayer::UpdateHudAmmo( idUserInterface *_hud ) {
 	_hud->SetStateBool( "player_ammo_empty", ( ammoamount == 0 ) );
 }
 
+//oscar begin
+void idPlayer::UpdateHudScore(idUserInterface* _hud) {
+	int scoreBlue;
+	int scoreRed;
+	scoreBlue = 0;
+	scoreRed = 10;
+
+	assert(_hud);
+	_hud->SetStateString("redScore", "-1");
+	_hud->SetStateString("blueScore", "-1");
+	_hud->SetStateInt("redScore", scoreRed);
+	_hud->SetStateInt("blueScore", scoreBlue);
+
+	
+}
+//end oscar
+
 /*
 ===============
 idPlayer::UpdateHudStats
@@ -3434,9 +3451,11 @@ void idPlayer::UpdateHudStats( idUserInterface *_hud ) {
 
 	if ( weapon ) {
 		UpdateHudAmmo( _hud );
+		
 	}
 	
 	_hud->StateChanged( gameLocal.time );
+	UpdateHudScore(_hud);
 }
 
 /*

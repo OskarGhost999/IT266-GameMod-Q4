@@ -95,6 +95,14 @@ struct idObjectiveInfo {
 	idStr screenshot;
 };
 
+//oscar begin
+struct idNewObjectiveInfo {
+	idStr title;
+	idStr text;
+};
+
+//oscar end
+
 struct idLevelTriggerInfo {
 	idStr levelName;
 	idStr triggerName;
@@ -641,6 +649,11 @@ public:
 #endif
 	void					UpdateHudStats( idUserInterface *hud );
  	void					UpdateHudAmmo( idUserInterface *hud );
+
+	//oscas begin
+	void					UpdateHudScore(idUserInterface* hud);
+	//oscar end
+
  	void					ShowTip( const char *title, const char *tip, bool autoHide );
  	void					HideTip( void );
  	bool					IsTipVisible( void ) { return tipUp; };
