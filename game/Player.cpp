@@ -3387,7 +3387,7 @@ void idPlayer::UpdateHudScore(idUserInterface* _hud) {
 	int scoreBlue;
 	int scoreRed;
 	scoreBlue = 0;
-	scoreRed = 10;
+	scoreRed = 0;
 
 	assert(_hud);
 	_hud->SetStateString("redScore", "-1");
@@ -3396,6 +3396,15 @@ void idPlayer::UpdateHudScore(idUserInterface* _hud) {
 	_hud->SetStateInt("blueScore", scoreBlue);
 
 	
+}
+
+void idPlayer::UpdateHudPoints(idUserInterface* _hud) {
+	int points;
+	points = 300;
+
+	assert(_hud);
+	_hud->SetStateString("points", "-1");
+	_hud->SetStateInt("points", points);
 }
 //end oscar
 
@@ -3456,6 +3465,7 @@ void idPlayer::UpdateHudStats( idUserInterface *_hud ) {
 	
 	_hud->StateChanged( gameLocal.time );
 	UpdateHudScore(_hud);
+	UpdateHudPoints(_hud);
 }
 
 /*

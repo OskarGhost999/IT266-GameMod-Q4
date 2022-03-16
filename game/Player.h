@@ -652,6 +652,7 @@ public:
 
 	//oscas begin
 	void					UpdateHudScore(idUserInterface* hud);
+	void					UpdateHudPoints(idUserInterface* hud);
 	//oscar end
 
  	void					ShowTip( const char *title, const char *tip, bool autoHide );
