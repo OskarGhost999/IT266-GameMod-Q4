@@ -6,7 +6,7 @@ To be able to play this game:
 
 1. Buy the Quake 4 from Steam.
 
-2. Download the files from my GitHub https://github.com/OskarGhost999/IT266-GameMod-Q4
+2. Download the files from my GitHub https://github.com/OskarGhost999/IT266-GameMod-Q4/tree/master
 
 3. Unzip the folder
 
