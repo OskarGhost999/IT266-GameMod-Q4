@@ -26,8 +26,4 @@ To be able to play this game:
 
 11. Now there are two options to select from, SELECT the option Omicron. Don't worry about the other option.
 
-12. Now, you will look like a hacker because you will need to open the built-in console, you can open the console by doing “alt+ctrl+~”.
-
-13. Once the console is open you need to type “map game/testing”, yeah yeah yeah I know that's the only name I could come up with when creating the map.
-
-14. Now press ENTER and have fun.
+12. Now press ENTER and have fun.
